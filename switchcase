@@ -1,0 +1,19 @@
+import java.util.*;
+
+class seconds {
+    public static void main(String args[]) {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("enter a choice \n 1.hi \n 2.hey \n 3.hello");
+        int n = sc.nextInt();
+        switch (n)
+        {
+case 1: System.out.print("you said hi");
+break;
+case 2: System.out.print("you said hey");
+break;
+case 3: System.out.print("you said hello");
+break;
+default: System.out.print("invalid choice");
+    }
+}
+}
