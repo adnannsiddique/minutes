@@ -1,0 +1,20 @@
+import java.util.*;
+class seconds {
+    public static void main(String args[]) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("enter the number of minutes ");
+        int m = sc.nextInt();
+if(m>518400)
+{
+int y =m/518400;
+int x =m-(y*518400);
+int q =x/1440;
+System.out.print("the number of days and years are "+y +q);
+}
+else
+{
+int d = m/1400;
+System.out.println("number of days is "+d);
+}
+}
+}
